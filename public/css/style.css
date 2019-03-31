@@ -1,0 +1,151 @@
+
+* {
+	padding:0;
+	margin:0;
+}
+
+body {
+	font: 14px Arial;
+	
+}
+
+nav {
+	width:100%;
+	display:inline-block;
+	background:#ccc;
+}
+nav ul li {
+	float:left;
+	margin:7px;
+	padding:3px;
+	list-style:none;
+}
+
+nav ul li a {
+	text-decoration:none;
+	font-weight: bold;
+}
+
+nav ul li a:hover {
+	text-decoration:underline;
+}
+
+
+table {
+	border:1px solid #ccc;
+	border-collapse: collapse;
+	margin:10px;
+	width:100%;
+}
+
+table th,td {
+	padding:7px;
+	border:1px solid #ccc;
+}
+
+table td
+{
+	text-align:center;
+}
+
+div {
+	margin:7px;
+	padding:3px 0;
+}
+
+input, select {
+	padding:7px 0;
+}
+
+label {
+	width: 100%;
+    display: inline-block;
+    font-size: 13px;
+    color: gray;
+    padding: 7px 0;
+    font-style: italic;
+}
+
+p {
+	margin:7px 0;
+}
+
+button {
+	padding:7px;
+	margin: 7px;
+}
+
+textarea {
+	padding:3px;
+	min-width:500px;
+	min-height:300px;
+}
+
+#good {
+	color:green;
+	font-weight:bold;
+	background: #00cc2d70;
+	padding: 7px;
+}
+
+#bad {
+	background: #cc000070;
+    padding: 7px;
+}
+
+#bad p:first-child {
+	color:#cc0000;
+	font-weight:bold;
+}
+
+#bad p {
+	font-weight:bold;
+}
+
+#warning {
+	background:#ffa5005e;
+	padding: 7px;
+}
+
+#warning p:first-child {
+	font-weight:bold;
+
+}
+
+#good_2 {
+	color: green;
+    font-weight: bold;
+    padding: 3px;
+    font-size: 13px;
+}
+
+#bad_2 {
+	color: #cc0000;
+    font-weight: bold;
+    padding: 3px;
+    font-size: 13px;
+}
+
+#box {
+	float:left;
+	width:45%;
+	margin:0 20px;
+}
+
+.drevo {
+	margin:20px;
+}
+
+.drevo span{
+	font-weight:bold;
+}
+
+.drevo ul li {
+	font-size:15px;
+}
+
+.drevo ul li ul li {
+	margin:10px;
+	margin-left:20px;
+	font-size:13px;
+}

@@ -1,0 +1,17 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+
+AddDefaultCharset utf-8
+# enable PHP error logging
+#php_flag  log_errors on
+#php_value error_log  ./logs/PHP_errors.log
+#php_value max_execution_time 120
+
+# Auth rules
+#AuthName "Protected area, need authorization"
+#AuthType Basic
+#AuthUserFile /opt/var/sites/nadeensky.ru/.htpasswd
+#require valid-user
